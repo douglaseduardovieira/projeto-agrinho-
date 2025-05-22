@@ -1,0 +1,74 @@
+/* Estilos gerais */
+body {
+    font-family:  "Creepster";
+    margin: 0;
+    padding: 0;
+    background-color:#9ACD32;
+    color: black;
+}
+
+header {
+    background-color:#9ACD32; /* verde escuro */
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5.5em;
+}
+
+header p {
+    margin-top: 20px;
+    font-size: 2.2em;
+}
+
+section {
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:#ADFF2F;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: ;
+    margin-top: 0;
+}
+
+section img {
+    width: 35%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 1000px;
+}
+
+footer {
+    background-color: #9ACD32;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}.content-item {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Espaçamento entre a imagem e o texto */
+    flex-wrap: wrap; /* Para responsividade em telas menores */
+}
+
+.content-item img {
+    width: 35%;
+    max-width: 200px; /* Opcional, para limitar o tamanho em telas grandes */
+    border-radius: 20%; /* Mantendo o efeito circular */
+}
+
+.content-item p {
+    flex: 1; /* Para que o parágrafo ocupe o espaço restante */
+    margin: 0;
+    font-size: 1.2em;
+}
